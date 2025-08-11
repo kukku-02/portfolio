@@ -1,0 +1,371 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Libertinus Serif", serif;
+}
+.main{
+    background-image: url('https://tipsmake.com/data/images/100-beautiful-background-png-picture-2-kYPQZQgEy.png');
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+}
+.logo{
+    width: 100px;
+    margin: 5px;
+    height: 50px;
+}
+.navbar{
+    background-color:rgb(251, 251, 251);
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding: 5px;
+    justify-content: space-between;
+    margin: auto;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+    margin: 10px;
+    margin-right: 40px;
+}
+
+ul li a{
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+ul li a:hover{
+    color:green;
+}
+
+.info{
+    margin-top: 2%;
+    margin-left: 5%;
+}
+.info h3{
+    font-size: large;
+}
+.info h2:hover{
+    color: rgb(158, 97, 97);
+}
+
+
+.container {
+  position: relative;
+  width: 500px;
+    height: 300px;
+    left: 800px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+  
+}
+
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+
+  width: 500px;
+  height: 600px;
+  position: absolute;
+  overflow: hidden;
+  top: 100%;
+  left: 50%;
+  bottom: 100%;
+  right: 0;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+/* .image{
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    padding-left: 1000px;
+    padding-top:0 ;
+    bottom: 25%;
+}
+
+.image img{
+    position: absolute;
+    height: 100%;
+    
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+.image:hover .overlay{
+bottom: 0;
+  height: 100%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+} */
+
+.h2{
+    text-align: center;
+    background-color:rgb(196, 217, 255);
+    padding: 10px;
+}
+.h{
+    text-align: center;
+    background-color: rgb(232, 249, 255);
+    padding: 10px;
+}
+.H{
+
+    text-align: center;
+    background-color: rgb(197, 186, 255);
+    padding: 10px;
+}
+
+#bio p{
+    padding: 30px;
+    font-size: medium;
+    text-align: justify;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color:rgb(196, 217, 255) ;
+}
+
+.col{
+    height: 250px;
+    width: 400px;
+    /* border: 2px inset brown; */
+    margin: 5px;
+    padding: 10px;
+    /* background: linear-gradient(to top, rgb(227, 217, 217)50%,rgb(175, 145, 200) 50%);
+    background-size: 100%  200%;
+    transition: all 2s; */
+}
+.col:hover{
+    border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #888888;
+}
+
+.col img{
+    width: 300px;
+    padding-left: 40px;
+ 
+}
+
+.col p{
+    text-align: justify;
+
+}
+
+.row1{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color:rgb(197, 186, 255) ;
+}
+
+.col1{
+    height: 170px;
+    width: 400px;
+    
+    /* border: 2px inset brown; */
+    margin: 5px;
+    padding: 10px;
+    /* background: linear-gradient(to top, rgb(227, 217, 217)50%,rgb(175, 145, 200) 50%);
+    background-size: 100%  200%;
+    transition: all 2s; */
+}
+.col1:hover{
+    border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #888888;
+}
+
+.col1 img{
+    width: 300px;
+    padding-left: 40px;
+ 
+}
+#connect{
+    background-color: rgb(181, 169, 244);
+}
+.hh{
+     text-align: center;
+    padding: 10px;
+}
+.pp p{
+    text-align: center;
+    padding: 10px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer p{
+    margin: 10px;
+}
+
+.cv{
+    background-color:green ;
+    color: white;
+    text-decoration: none;
+    width: 200px;
+    padding: 5px;
+    border-radius: 10%;
+    margin: 700px;
+    
+    
+    
+}
+#download{
+    background-color:  rgb(181, 169, 244);
+    height: 50px;
+    
+}
+
+ @media (max-width: 400px) {
+  .navbar {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .logo {
+    width: 80px;
+    height: 40px;
+    margin: 5px ;
+  }
+
+  ul li {
+    display: block;
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  .main {
+    height: auto;
+    background-size: cover;
+  }
+
+  .info {
+    text-align: center;
+  }
+
+  .container {
+    width: 90%;
+    height: auto;
+  left: 0;
+    margin: 10px ;
+  }
+
+  .image {
+    width: 100%;
+    height: auto;
+  }
+
+  .overlay {
+    width: 100%;
+     transition: .5s ease;
+     overflow: hidden;
+  }
+
+  .text {
+    width: 90%;
+    height: auto;
+    font-size: 14px;
+    left: 50%;
+    top: 50%;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+  .row, .row1 {
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+  }
+
+  .col, .col1 {
+    width: 90%;
+    margin: 10px 0;
+    padding: 10px;
+  }
+
+  .col img, .col1 img {
+    width: 100%;
+    
+  }
+
+  .footer{
+     flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+  .cv {
+    width: 80%;
+    margin: 20px;
+    font-size: 16px;
+  }
+
+  #download {
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  h2, h3, p {
+    text-align: center;
+  }
+
+  #bio p {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
